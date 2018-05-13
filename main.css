@@ -1,0 +1,142 @@
+main {
+    background-color: #f9f9f9;
+    height: 450px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+main .container {
+    justify-content: space-around;
+}
+
+.boxes1 {
+    display: flex;
+    background-color: white;
+    width: 427px;
+height: 292px;
+   padding-top: 25px;
+}
+
+.face {
+    background: url(../image/face.png) no-repeat;
+    box-shadow: 1px 2px 0 #ffffff, inset 1px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    margin: 0 15px;
+    position: relative;
+    right: 35px;
+}
+
+.faceText p {
+    overflow: hidden;
+    width: 346px;
+    height: 210px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "Open Sans Light Regular";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-top: 15px;
+    position: relative;
+    right: 35px;
+}
+
+.faceText span {
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #edbfff;
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.faceText h1 {
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.nunc {
+    display: flex;
+    padding-top: 15px;
+   
+}
+
+.nunc p {
+    width: 365px;
+    height: 41px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "Open Sans Light Regular";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.nunc span {
+    font-family: "Open Sans - Extrabold";
+    font-weight: bolder;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 20px;
+}
+.boxes2{
+    padding-top: 25px;
+}
+.boxes2 .faseText h2 {
+    width: 200px;
+    height: 22px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "League Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.nunc img {
+    width: 49px;
+    height: 49px;
+}
+#other{
+     padding-left: 15px;
+}
+.boxes2 .readMore{
+    width: 100px;
+height: 14px;
+text-shadow: 1px 1px 0 #ffffff;
+color: #454545;
+font-family: "League Gothic";
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-transform: uppercase;
+    position: relative;
+    left: 320px;
+    top: 15px;
+    cursor: pointer;
+}
+.down .container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 127px;
+    width: 60%;
+    
+}
+.logo{
+   width: 775px;
+height: 65px;
+    
+background-image: url(../image/logos.png);
+    
+}
