@@ -1,125 +1,67 @@
-    @media (max-width: 1050px) {
-        #smallDisplay {
-            display: block;
-            padding: 70px;
-        }
-        #pingBuller {
-            margin: auto;
-        }
-        header .men {
-            display: none;
-        }
-        ul.menu {
-            display: block;
-            margin: 0;
-            padding-top: 10px;
-        }
-        #lorem {
-            width: 272px;
-            height: 185px;
-            text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
-            color: #ffffff;
-            font-family: "League Gothic";
-            font-size: 16px;
-            font-weight: 300;
-        }
-        .textCenter {
-            width: 272px;
-            height: 185px;
-            overflow: hidden;
-        }
-        header #small {
-            font-size: 14px;
-        }
-        header #small h2 span {
-            display: none;
-        }
-        .textCenter p {
-            display: none;
-        }
-        .button2 {
-            background: url(../image/3-layers.png) no-repeat;
-            background-position: 0 0;
-            width: 40px;
-            height: 29px;
-        }
-        .button3 {
-            background-position: 0 0;
-            width: 40px;
-            height: 29px;
-        }
-        section .container {
-            margin: 0 20%;
-        }
-        ul.menu li:hover ul.submenu {
-            display: block;
-        }
-        .iphoneAfter {
-            position: relative;
-            left: 40px;
-        }
-        .iphone {
-            position: relative;
-            left: 0px;
-            bottom: 85px;
-        }
-        section .container {
-            display: block;
-        }
-        .about p {
-            width: 500px;
-            height: 75px;
-        }
-        .about span {
-            position: relative;
-            left: 440px;
-            top: 15px;
-        }
-        section {
-            height: 500px;
-        }
-        main {
-            height: 800px;
-        }
-        main .container {
-            display: block;
-        }
-        .down .container {
-            height: 254px;
-        }
-        .down .container .logo {
-            width: 345px;
-            height: 154px;
-            background-image: url(../image/logos736.png);
-        }
-        .end {
-            height: 670px;
-        }
-        .end .container {
-            display: block;
-        }
-        .end .container h3,
-        .end .container h2 {
-            display: block;
-            margin-top: 20px;
-        }
-        .end .container #recent,
-        .end .container h1,
-        .end .container span {
-            display: none;
-        }
-        .end .box p {
-            width: 400px;
-        }
-        footer .container {
-            width: 100%;
-            height: 250px;
-        }
-        footer .men {
-            height: 0;
-            width: 428px;
-            font-size: 14px;
-            bottom: 175px;
-            left: 6%;
-        }
+@media (max-width: 977px) {
+    #smallDisplay {
+        display: block;
     }
+    header .men {
+        margin: 0 ;
+        padding-top: 10px;
+        padding-left: 0 ;
+    }
+    
+    .container{
+        width: 768px;
+    }
+}
+
+@media (max-width: 977px) {
+    #lorem {
+        width: 272px;
+        height: 180px;
+        text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+        color: #ffffff;
+        font-family: "League Gothic";
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .textCenter {
+        width: 272px;
+        height: 180px;
+        overflow: hidden;
+    }
+    header #small {
+        font-size: 14px;
+    }
+    header #small h2 span{
+        display: none;
+    }
+     .button2 {
+    background: url(../image/3-layers.png) no-repeat;
+    background-position: 0 0;
+    width: 40px;
+    height: 29px;
+}
+
+ .button3 {
+    
+    background-position: 0 0;
+    width: 40px;
+    height: 29px;
+}
+    section .container{
+       padding: 70px 20px;
+        justify-content: flex-start;
+    }
+    .boxes2 .readMore{
+        left: 70%;
+    }
+    .boxes2 #other{
+        width: 280px;
+        height: 52px;
+        overflow: hidden;
+    }
+    footer .container .designed h4{
+        padding-top: 30px;
+    }
+    
+    
+}

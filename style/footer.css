@@ -55,11 +55,11 @@ font-style: italic;
 line-height: 24px;
 }
 .end .box p{
-    width: 277px;
-height: 158px;
+    width: 70%;
+height: 150px;
 text-shadow: 1px 1px 0 #ffffff;
 color: #787878;
-font-family: "Open Sans";
+font-family: "Open Sans Light Regular";
 font-size: 16px;
 font-weight: 300;
 line-height: 24px;
@@ -78,33 +78,48 @@ line-height: 24px;
 text-transform: uppercase;
 }
 #smaller{
-    height: 110px;
-}
-foter{
-    position: absolute;
-    
+    height: 105px;
 }
 footer .men{
-    height: 0;
-   width: 528px;
-    z-index: 100;
+   width: 50%;
     color: #fff;
     text-align: center;
     text-shadow: 0 0 5px rgba(0,0,0,.5);
-    position: relative;
-    bottom: 75px;
-    left: 7%;
-  
+     
+    
+    
 }
-
-footer .container{
-    width: 100%;
-    height: 125px;
-    background-image: url(../image/bg.png);
-    background-position: bottom;
+footer{
+    height: 100px;
+    background-image: url(../image/bg-copy.png);
     background-repeat: no-repeat;
-    z-index: 99;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    filter: blur(5px);
+}
+footer .container{
+    margin: 0;
+ padding-left: 20px;
+   height: 100%;
+    padding-top: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0!important;
+    margin-left: 0!important;
+   
+}
+footer .container .designed h4{
+    height: 13px;
+ 
+text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+color: #ffffff;
+font-family: "Open Sans Light Regular";
+font-size: 12px;
+font-weight: 300;
+line-height: 33.72px;
+    
+}
+footer .container .designed span{
+    font-family: "Open Sans";
+    font-weight: 900;
+    
+    
 }

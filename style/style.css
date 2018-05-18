@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800i');
 @import "header.css";
 @import "styleFont.css";
 @import "styleFontTwo.css";
 @import "main.css";
 @import "footer.css";
 @import "menu.css";
-@import "adapt960.css";
 @import "adapt768.css";
-@import "adapt683.css";
+@import "adapt480.css";
+@import "adapt320.css";

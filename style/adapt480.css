@@ -1,0 +1,161 @@
+    @media (max-width: 785px) {
+        .container{
+            width: 480px;
+           
+            
+        }
+        #smallDisplay {
+            display: block;
+           
+        }
+        #pingBull {
+           padding-left: 20%;
+        }
+        header .men {
+            display: none;
+        }
+        ul.menu {
+            display: block;
+            margin: 0;
+            padding-top: 10px;
+            padding-left: 20%;
+        }
+        #lorem {
+            width: 272px;
+            height: 185px;
+            text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+            font-family: "League Gothic";
+            font-size: 16px;
+            font-weight: 300;
+        }
+        .textCenter {
+            width: 272px;
+            height: 185px;
+            overflow: hidden;
+        }
+        header #small {
+            font-size: 14px;
+        }
+        header #small h2 span {
+            display: none;
+        }
+        .textCenter p {
+            display: none;
+        }
+        .button2 {
+            background: url(../image/3-layers.png) no-repeat;
+            background-position: 0 0;
+            width: 40px;
+            height: 29px;
+        }
+        .button3 {
+            background-position: 0 0;
+            width: 40px;
+            height: 29px;
+        }
+        section .container {
+            padding: 20px;
+        }
+        
+        .iphoneAfter {
+            position: relative;
+            left: 40px;
+        }
+        .iphone {
+            position: relative;
+            left: 0px;
+            bottom: 85px;
+        }
+        ul.menu li:hover ul.submenu {
+            display: block;
+           
+             z-index:9999;
+        }
+        section .container {
+            display: block;
+        }
+        .about p {
+            width: 100%;
+            height: 73px;
+        }
+        .about span {
+            position: relative;
+            left: 80%;
+            top: 15px;
+        }
+        section {
+            height: 500px;
+        }
+        main{
+            height: 700px;
+        }
+        main .container{
+            display: block;
+            
+        }
+        .boxes1{
+            
+            
+            width: 420px;
+        }
+        .boxes2{
+            padding-left: 55px;
+           width: 400px;
+        }
+        .down .container {
+            height: 254px;
+        }
+        .down .container  {
+            width: 300px;
+            height: 154px;
+            flex-flow: wrap;
+        }
+        
+        .end {
+            height: 670px;
+        }
+        .end .container {
+            display: block;
+        }
+        .end .container h3,
+        .end .container h2 {
+            display: block;
+            margin-top: 20px;
+        }
+        .end .container #recent,
+        .end .container h1,
+        .end .container span {
+            display: none;
+        }
+        .end .box p {
+            width: 400px;
+        }
+        footer .container {
+            width: 100%;
+            height: 250px;
+        }
+       
+        footer .container{
+            display: block;
+            width: 100%;
+        }
+        footer{
+            height: 200px;
+        }
+        footer .men{
+            padding-left: 20%!important;
+    margin-left: 0!important;
+            height: 0;
+            width: 428px;
+            font-size: 14px;
+            bottom: 175px;
+            left: 6%;
+        }
+    footer .container .designed {
+        
+        padding-left: 40%;
+    }
+   
+    
+}

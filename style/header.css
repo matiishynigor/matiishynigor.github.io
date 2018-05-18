@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*
+body{
+    display: block;
+    justify-content: center;
+}
+*/
 header {
     width: 100%;
     height: 824px;
@@ -13,7 +18,8 @@ header {
 }
 
 .container {
-    width: 60%;
+    width: 960px;
+    padding-left: 20px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 70px;
@@ -50,6 +56,9 @@ header .container {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+    
+}
+
 }
 ul .menu{
     display: none;
@@ -59,13 +68,14 @@ ul .menu{
 }
 
 .textCenter {
-    width: 502px;
+    width: 542px;
     height: 231px;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
     color: #ffffff;
     font-family: "Open Sans Light Regular";
     font-size: 18px;
     font-weight: 300;
+     overflow: hidden;
 }
 
 
@@ -73,8 +83,9 @@ ul .menu{
 #lorem {
     color: #fefefe;
     font-family: "League Gothic";
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
+   
 }
 
 
@@ -88,12 +99,12 @@ ul .menu{
 
 .iphoneAfter {
     position: relative;
-    left: 240px;
+    left: 100px;
 }
 
 .iphone {
     position: relative;
-    left: 200px;
+    left: 60px;
     bottom: 85px;
 }
 
@@ -111,10 +122,13 @@ section {
 
 section .container {
     justify-content: space-between;
+    
 }
 
 .box {
     display: flex;
+    width: 90%;
+    
 }
 
 .button1 {
@@ -148,9 +162,11 @@ section .container {
     line-height: 24px;
     text-transform: uppercase;
 }
-
+.about{
+    width: 100%;;
+}
 .about p {
-    width: 223px;
+    width: 70%;
     height: 115px;
     text-shadow: 1px 1px 0 #0f1518;
     color: #ffffff;
@@ -159,7 +175,7 @@ section .container {
     font-weight: 300;
     line-height: 24px;
     overflow: hidden;
-    word-wrap: break-word;
+   
 }
 
 .about span {

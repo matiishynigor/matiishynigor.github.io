@@ -67,3 +67,7 @@ ul.submenu li a:hover {
 ul .menu {
     display: none;
 }
+.men a{
+    text-decoration: none;
+    color: white;
+}
